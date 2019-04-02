@@ -1,0 +1,38 @@
+{
+  "name": "sariyacash",
+  "version": "1.0.0",
+  "description": "find the closest cash machine to you",
+  "main": "index.html",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "connect": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facn5/SariyaCash.git"
+  },
+  "keywords": [
+    "atm",
+    "cash",
+    "Sariya",
+    "israel",
+    "palestine",
+    "nazareth",
+    "fast",
+    "close",
+    "map",
+    "cheap"
+  ],
+  "author": "tamer and john",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facn5/SariyaCash/issues"
+  },
+  "homepage": "https://github.com/facn5/SariyaCash#readme",
+  "dependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
