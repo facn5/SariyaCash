@@ -1,0 +1,34 @@
+html {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: 100%;
+}
+
+/* .grid-element{
+} */
+
+.header, .input-container, .filter, .map, .footer {
+  grid-column: 1 / 2;
+}
+
+.text-field, .input-button {
+  display: inline-block;
+}
+
+@media (min-width: 800px) {
+  .grid-container {
+    grid-template-columns: 50% 50%;
+  }
+
+  .header, .footer {
+    grid-column: 1 / 3;
+  }
+
+  .input-container, .filter, .map {
+    grid-column: 1 / 3;
+  }
+}
