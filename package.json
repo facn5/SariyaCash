@@ -2,12 +2,13 @@
   "name": "sariyacash",
   "version": "1.0.0",
   "description": "find the closest cash machine to you",
-  "main": "index.js",
+  "main": "index.html",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "connect": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/facn5/SariyaCash/issues"
   },
-  "homepage": "https://github.com/facn5/SariyaCash#readme"
+  "homepage": "https://github.com/facn5/SariyaCash#readme",
+  "dependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
