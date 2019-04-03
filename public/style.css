@@ -1,15 +1,15 @@
-html {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.grid-container{
-display: grid;
-grid-template-columns: 100%;
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
 }
 
 /* .grid-element{
 } */
+
+header {
+  text-align: center;
+  margin: 0 auto;
+}
 
 .header, .input-container, .filter, .map, .footer {
   grid-column: 1 / 2;
